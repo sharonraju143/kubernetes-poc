@@ -1,6 +1,6 @@
 ---
 - name: Run Kubernetes Manifest
-  hosts: kubernetes-master
+  hosts: Master
   become: true
   tasks:
     - name: Clone Git Repository
